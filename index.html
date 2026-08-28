@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Neel Bhanji — Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="#" class="logo">Neel Bhanji</a>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-inner">
+
+      <img
+        src="Image1.jpeg"
+        alt="Photo of Neel Bhanji"
+        class="hero-photo"
+      >
+
+      <h1>Hi, I'm Neel Bhanji</h1>
+
+      <p class="hero-subtitle">
+        A Computer Science student passionate about technology,
+        programming and building creative projects.
+      </p>
+
+      <a href="#contact" class="btn">Get In Touch</a>
+
+    </div>
+  </section>
+
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about">
+    <div class="container">
+
+      <h2>About Me</h2>
+
+      <p>
+        I'm a Computer Science student passionate about technology,
+        programming and software development. I enjoy learning new
+        technologies and turning ideas into working projects. I have
+        experience with Python, C++, SQL, HTML, CSS, JavaScript, R,
+        Visual Basic and Hadoop.
+      </p>
+
+      <h3>Skills</h3>
+
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>C++</li>
+        <li>SQL</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>R</li>
+        <li>Hadoop</li>
+        <li>Git &amp; GitHub</li>
+      </ul>
+
+    </div>
+  </section>
+
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="projects">
+
+    <div class="container">
+
+      <h2>My Projects</h2>
+
+      <div class="project-grid">
+
+        <!-- Fractal Tree -->
+        <div class="project-card">
+
+         <!-- Fractal Tree -->
+          <img
+          src="https://nsi.lycee-elie-vinet.fr/assets/images/L-Systeme.png"
+          alt="Python Fractal Tree Project"
+          >
+
+          <h3>Fractal Tree</h3>
+
+          <p>
+            A recursive fractal tree created using Python Turtle,
+            featuring randomized blossom colors and recursive branching.
+          </p>
+
+          <a href="#" class="project-link">
+            View Project →
+          </a>
+
+        </div>
+
+
+        <!-- Snake Game -->
+        <div class="project-card">
+
+          <img src="image 2.png"alt="Python Snake Game Project">
+
+          <h3>Snake Game</h3>
+
+          <p>
+            A classic Snake game developed as a group project using
+            programming logic, game mechanics and interactive controls.
+          </p>
+
+          <a href="#" class="project-link">
+            View Project →
+          </a>
+
+        </div>
+
+
+        <!-- UrbnReboot -->
+        <div class="project-card">
+
+          <img
+            src="https://placehold.co/400x220"
+            alt="UrbnReboot Project"
+          >
+
+          <h3>UrbnReboot</h3>
+
+          <p>
+            An on-demand urban home services platform concept connecting
+            users with electricians, plumbers, cleaning and other services.
+          </p>
+
+          <a href="#" class="project-link">
+            View Project →
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+
+    <div class="container">
+
+      <h2>Contact Me</h2>
+
+      <p>
+        Have a question or just want to say hi? Send me a message.
+      </p>
+
+      <form class="contact-form">
+
+        <label for="name">Name</label>
+
+        <input
+          type="text"
+          id="name"
+          placeholder="Your name"
+          required
+        >
+
+
+        <label for="email">Email</label>
+
+        <input
+          type="email"
+          id="email"
+          placeholder="you@example.com"
+          required
+        >
+
+
+        <label for="message">Message</label>
+
+        <textarea
+          id="message"
+          rows="5"
+          placeholder="Your message..."
+          required
+        ></textarea>
+
+
+        <button type="submit" class="btn">
+          Send Message
+        </button>
+
+        <p class="form-status" aria-live="polite"></p>
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <p>
+        &copy; 2026 Neel Bhanji. All rights reserved.
+      </p>
+
+      <div class="social-links">
+
+        <a
+          href="https://github.com/neelbhanji14-hub"
+          target="_blank"
+        >
+          GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/neel-bhanji-4b3a91326/"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Our JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
